@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // try {
     //     $db_name = 'junbo3631_3size_db';    //データベース名
     //     $db_id   = 'junbo3631_3size_db';      //アカウント名
-    //     $db_pw   = 'junko3631';      //パスワード：MAMPは'root'
+    //     $db_pw   = '';      //パスワード：MAMPは'root'
     //     $db_host = 'mysql3104.db.sakura.ne.jp'; //DBホスト
     //     $pdo = new PDO('mysql:dbname=' . $db_name . ';charset=utf8;host=' . $db_host, $db_id, $db_pw);
     // } catch (PDOException $e) {
@@ -35,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $host = 'mysql3104.db.sakura.ne.jp';
         $dbname = 'junbo3631_3size_db';
         $username = 'junbo3631_3size_db';
-        $password = 'junko3631';
+        $password = '';
 
     // $host = 'localhost';
     // $dbname = '3size_db';
